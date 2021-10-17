@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-#p1:checked ~ .catch-area [for=p1] .catch-area__custom-dot {
+#p1:checked ~ .catch-area [for='p1'] .catch-area__custom-dot {
   border: 0.4em solid #fff;
   outline: 0.2em solid blueviolet;
   outline-offset: -0.2em;
@@ -17,7 +17,7 @@
   transition: 0.3s;
 }
 
-#p2:checked ~ .catch-area [for=p2] .catch-area__custom-dot {
+#p2:checked ~ .catch-area [for='p2'] .catch-area__custom-dot {
   border: 0.4em solid #fff;
   outline: 0.2em solid blueviolet;
   outline-offset: -0.2em;
@@ -29,7 +29,7 @@
   transition: 0.3s;
 }
 
-#p3:checked ~ .catch-area [for=p3] .catch-area__custom-dot {
+#p3:checked ~ .catch-area [for='p3'] .catch-area__custom-dot {
   border: 0.4em solid #fff;
   outline: 0.2em solid blueviolet;
   outline-offset: -0.2em;
@@ -41,7 +41,7 @@
   transition: 0.3s;
 }
 
-#p4:checked ~ .catch-area [for=p4] .catch-area__custom-dot {
+#p4:checked ~ .catch-area [for='p4'] .catch-area__custom-dot {
   border: 0.4em solid #fff;
   outline: 0.2em solid blueviolet;
   outline-offset: -0.2em;
@@ -78,7 +78,7 @@
   flex-wrap: nowrap;
   overflow: hidden;
   -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
 }
 .slider__individual-slide {
   display: flex;
@@ -115,7 +115,7 @@
   height: 4rem;
   align-items: flex-start;
   display: block;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 1rem;
   color: #fff;
 }
@@ -158,4 +158,4 @@
     align-self: center;
     margin-top: -5rem;
   }
-}/*# sourceMappingURL=secondary.css.map */
+} /*# sourceMappingURL=secondary.css.map */
